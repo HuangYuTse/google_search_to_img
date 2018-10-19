@@ -21,6 +21,6 @@ def img_to_txt(url):
 	print(txt.text)
 if __name__ == '__main__':
 	search = input("輸入字")
-	#getimg('https://www.google.com.tw/search?tbm=isch&q='+search)
-	img_to_txt('https://www.google.com/searchbyimage?site=search&sa=X&image_url='+search)
+	getimg('https://www.google.com.tw/search?tbm=isch&q='+search)
+	#img_to_txt('https://www.google.com/searchbyimage?site=search&sa=X&image_url='+search)
 
